@@ -5,7 +5,7 @@ npm install -g json-server
 ```
 
 ## 執行
-1. ./mock.sh 假資料檔案<br>
+1. ./mock.sh 假資料json<br>
     比如<br>
     ```bash
     ./mock.sh notification-groups.json
@@ -19,3 +19,4 @@ npm install -g json-server
 
 ## route對應
 1. 修改route.json    
+2. query parameter&path mapping可用regular express處理
