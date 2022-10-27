@@ -1,3 +1,4 @@
 {
-    "/api/wms/v1/notification_groups/list*": "/notification_groups$1"
+    "/api/wms/v1/notification_groups/list\\?*": "/notification_groups",
+    "/api/wms/v1/notification_groups/query?items=:group_id":"/notification_groups?group_id=:group_id"
 }

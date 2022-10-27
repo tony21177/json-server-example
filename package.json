@@ -1,0 +1,23 @@
+{
+  "name": "vue-mock",
+  "version": "1.0.0",
+  "description": "1. ```bash npm install -g json-server ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony21177/json-server-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tony21177/json-server-example/issues"
+  },
+  "homepage": "https://github.com/tony21177/json-server-example#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}

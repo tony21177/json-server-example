@@ -1,0 +1,45 @@
+{
+    "notification_groups": [
+        {
+            "group_id": "G-FAB1",
+            "group_name": "產線FAB-1",
+            "accounts": [
+                "FAB1-USER-A",
+                "FAB1-USERB"
+            ],
+            "created_time": 1666062648853
+        },
+        {
+            "group_id": "G-FAB2",
+            "group_name": "產線FAB-2",
+            "accounts": [
+                "FAB2-USER-A"
+            ],
+            "created_time": 1666062648853
+        },
+        {
+            "group_id": "G-FAB3",
+            "group_name": "產線FAB-3",
+            "accounts": [
+                "FAB3-USER-A"
+            ],
+            "created_time": 1666062648853
+        },
+        {
+            "group_id": "G-FAB4",
+            "group_name": "產線FAB-4",
+            "accounts": [
+                "FAB1-USER-A"
+            ],
+            "created_time": 1666062648853
+        },
+        {
+            "group_id": "G-FAB5",
+            "group_name": "產線FAB-5",
+            "accounts": [
+                "FAB1-USER-A"
+            ],
+            "created_time": 1666062648853
+        }
+    ]
+}

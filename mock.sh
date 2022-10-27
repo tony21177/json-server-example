@@ -12,4 +12,4 @@ if [ $# -ne 1 ]; then
     exit 1
 fi
 
-json-server --port 8083 --routes routes.json --watch $1
+json-server --config json-server.json --routes routes.json  --watch $1
