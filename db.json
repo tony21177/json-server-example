@@ -1,45 +1,120 @@
 {
+    "users": [
+        {
+            "userId": "001",
+            "account": "FAB1-USER-A"
+        },
+        {
+            "userId": "002",
+            "account": "FAB1-USER-B"
+        },
+        {
+            "userId": "003",
+            "account": "FAB2-USER-A"
+        },
+        {
+            "userId": "004",
+            "account": "FAB3-USER-A"
+        },
+        {
+            "userId": "005",
+            "account": "FAB4-USER-A"
+        },
+        {
+            "userId": "006",
+            "account": "FAB5-USER-A"
+        }
+    ],
     "notification_groups": [
         {
             "group_id": "G-FAB1",
             "group_name": "產線FAB-1",
-            "accounts": [
-                "FAB1-USER-A",
-                "FAB1-USERB"
+            "users": [
+                {
+                    "account": "FAB1-USER-A",
+                    "userId": "001"
+                },
+                {
+                    "account": "FAB1-USER-B",
+                    "userId": "002"
+                }
             ],
             "created_time": 1666062648853
         },
         {
             "group_id": "G-FAB2",
             "group_name": "產線FAB-2",
-            "accounts": [
-                "FAB2-USER-A"
+            "users": [
+                {
+                    "account": "FAB2-USER-A",
+                    "userId": "003"
+                }
             ],
             "created_time": 1666062648853
         },
         {
             "group_id": "G-FAB3",
             "group_name": "產線FAB-3",
-            "accounts": [
-                "FAB3-USER-A"
+            "users": [
+                {
+                    "account": "FAB3-USER-A",
+                    "userId": "004"
+                }
             ],
             "created_time": 1666062648853
         },
         {
             "group_id": "G-FAB4",
             "group_name": "產線FAB-4",
-            "accounts": [
-                "FAB1-USER-A"
+            "users": [
+                {
+                    "account": "FAB4-USER-A",
+                    "userId": "005"
+                }
             ],
             "created_time": 1666062648853
         },
         {
             "group_id": "G-FAB5",
             "group_name": "產線FAB-5",
-            "accounts": [
-                "FAB1-USER-A"
+            "users": [
+                {
+                    "account": "FAB5-USER-A",
+                    "userId": "006"
+                }
             ],
             "created_time": 1666062648853
         }
-    ]
+    ],
+    "delivery_missions": [
+        {
+            "user_id": "FA-B1",
+            "mission_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697",
+            "source_storage_id": "P-03-0",
+            "source_storage_name": "QC1A B1 成品區",
+            "target_storage_id": "D-01-0",
+            "target_storage_name": "QC1A 1F 成品倉",
+            "route_id": "FAB-R1",
+            "route_name": "成品路線",
+            "notification_user_id": "FA-B2",
+            "notification_user_name": "FA-B2",
+            "AMR": "SIM01",
+            "updated_time": 1667548448883,
+            "arrive_source_time": 1667548448883,
+            "estimate_arrive_source_time": 1667548448883,
+            "arrive_target_time": null,
+            "estimate_arrive_target_time": null
+        }
+    ],
+    "profile": {
+        "created_time": 1669169569382,
+        "updated_time": 1669169569382,
+        "user_id": "dummy",
+        "user_name": "dummy",
+        "user_organization": "dummy",
+        "authorization": {
+            "expired_time": 1669173169382,
+            "role": "normal"
+        }
+    }
 }

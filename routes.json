@@ -1,4 +1,7 @@
 {
+    "/api/wms/v1/auth/profile":"/profile",
     "/api/wms/v1/notification_groups/list\\?*": "/notification_groups",
-    "/api/wms/v1/notification_groups/query?items=:group_id":"/notification_groups?group_id=:group_id"
+    "/api/wms/v1/quanta/delivery_mission/list\\?*":"/delivery_missions",
+    "/api/wms/v1/notification_groups/query?items=:group_id":"/notification_groups?group_id=:group_id",
+    "/api/wms/v1/users/list?start=:_start&length=:_limit&order:_sort&order_dir:_order":"/users?_start=:_start&_limit=:_limit&_sort=:_sort&_order=:_order"
 }
