@@ -1,120 +1,246 @@
 {
-    "users": [
-        {
-            "userId": "001",
-            "account": "FAB1-USER-A"
-        },
-        {
-            "userId": "002",
-            "account": "FAB1-USER-B"
-        },
-        {
-            "userId": "003",
-            "account": "FAB2-USER-A"
-        },
-        {
-            "userId": "004",
-            "account": "FAB3-USER-A"
-        },
-        {
-            "userId": "005",
-            "account": "FAB4-USER-A"
-        },
-        {
-            "userId": "006",
-            "account": "FAB5-USER-A"
-        }
-    ],
-    "notification_groups": [
-        {
-            "group_id": "G-FAB1",
-            "group_name": "產線FAB-1",
-            "users": [
-                {
-                    "account": "FAB1-USER-A",
-                    "userId": "001"
-                },
-                {
-                    "account": "FAB1-USER-B",
-                    "userId": "002"
-                }
-            ],
-            "created_time": 1666062648853
-        },
-        {
-            "group_id": "G-FAB2",
-            "group_name": "產線FAB-2",
-            "users": [
-                {
-                    "account": "FAB2-USER-A",
-                    "userId": "003"
-                }
-            ],
-            "created_time": 1666062648853
-        },
-        {
-            "group_id": "G-FAB3",
-            "group_name": "產線FAB-3",
-            "users": [
-                {
-                    "account": "FAB3-USER-A",
-                    "userId": "004"
-                }
-            ],
-            "created_time": 1666062648853
-        },
-        {
-            "group_id": "G-FAB4",
-            "group_name": "產線FAB-4",
-            "users": [
-                {
-                    "account": "FAB4-USER-A",
-                    "userId": "005"
-                }
-            ],
-            "created_time": 1666062648853
-        },
-        {
-            "group_id": "G-FAB5",
-            "group_name": "產線FAB-5",
-            "users": [
-                {
-                    "account": "FAB5-USER-A",
-                    "userId": "006"
-                }
-            ],
-            "created_time": 1666062648853
-        }
-    ],
-    "delivery_missions": [
-        {
-            "user_id": "FA-B1",
-            "mission_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697",
-            "source_storage_id": "P-03-0",
-            "source_storage_name": "QC1A B1 成品區",
-            "target_storage_id": "D-01-0",
-            "target_storage_name": "QC1A 1F 成品倉",
-            "route_id": "FAB-R1",
-            "route_name": "成品路線",
-            "notification_user_id": "FA-B2",
-            "notification_user_name": "FA-B2",
-            "AMR": "SIM01",
-            "updated_time": 1667548448883,
-            "arrive_source_time": 1667548448883,
-            "estimate_arrive_source_time": 1667548448883,
-            "arrive_target_time": null,
-            "estimate_arrive_target_time": null
-        }
-    ],
-    "profile": {
-        "created_time": 1669169569382,
-        "updated_time": 1669169569382,
-        "user_id": "dummy",
-        "user_name": "dummy",
-        "user_organization": "dummy",
-        "authorization": {
-            "expired_time": 1669173169382,
-            "role": "normal"
-        }
+  "users": [
+    {
+      "authorization": {
+        "expired_time": 1699002699274,
+        "role": "normal"
+      },
+      "created_time": 1667466756463,
+      "updated_time": 1667466756463,
+      "user_id": "FA-B1",
+      "user_name": "FA-B1",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699002768869,
+        "role": "normal"
+      },
+      "created_time": 1667466786597,
+      "updated_time": 1667466786597,
+      "user_id": "FA-B2",
+      "user_name": "FA-B2",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699060956763,
+        "role": "normal"
+      },
+      "created_time": 1667524980064,
+      "updated_time": 1667524980064,
+      "user_id": "FA-B3",
+      "user_name": "FA-B3",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699060982844,
+        "role": "normal"
+      },
+      "created_time": 1667524996078,
+      "updated_time": 1667524996078,
+      "user_id": "FA-B4",
+      "user_name": "FA-B4",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699060998892,
+        "role": "normal"
+      },
+      "created_time": 1667525012139,
+      "updated_time": 1667525012139,
+      "user_id": "FA-B5",
+      "user_name": "FA-B5",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699423715992,
+        "role": "normal"
+      },
+      "created_time": 1667887774384,
+      "updated_time": 1667887774384,
+      "user_id": "FA-B6",
+      "user_name": "FA-B6",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699423777202,
+        "role": "normal"
+      },
+      "created_time": 1667887794747,
+      "updated_time": 1667887794747,
+      "user_id": "FA-B7",
+      "user_name": "FA-B7",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699423798625,
+        "role": "normal"
+      },
+      "created_time": 1667887815578,
+      "updated_time": 1667887815578,
+      "user_id": "FA-B8",
+      "user_name": "FA-B8",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 1699424123865,
+        "role": "normal"
+      },
+      "created_time": 1667888137974,
+      "updated_time": 1667888137974,
+      "user_id": "FA-B9",
+      "user_name": "FA-B9",
+      "user_organization": ""
+    },
+    {
+      "authorization": {
+        "expired_time": 4821739514559,
+        "role": "admin"
+      },
+      "created_time": 1668139514559,
+      "updated_time": 1668139514559,
+      "user_id": "admin",
+      "user_name": "admin",
+      "user_organization": "admin"
+    },
+    {
+      "authorization": {
+        "expired_time": 1699675514570,
+        "role": "normal"
+      },
+      "created_time": 1668139514570,
+      "updated_time": 1668139514570,
+      "user_id": "test",
+      "user_name": "test",
+      "user_organization": "test"
     }
+  ],
+  "delivery_missions": [
+    {
+      "delivery_mission_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697",
+      "delivery_status": "scheduling",
+      "route_id": "FAB-R1",
+      "route_profile": {
+        "route_id": "FAB-R1",
+        "route_name": "成品路線1",
+        "source_id": "AAB1",
+        "source_name": "QC1A B1 成品區",
+        "target_id": "AA12",
+        "target_name": "QC1A 1F 成品倉",
+        "notification_users": [
+          {
+            "user_id": "FA-B1",
+            "user_name": "FA-B1"
+          },
+          {
+            "user_id": "FA-B2",
+            "user_name": "FA-B2"
+          }
+        ],
+        "user_id": "admin",
+        "created_time": 1641287832454,
+        "updated_time": 1641287832454
+      },
+      "task_recall_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697-recall",
+      "task_delivery_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697-delivery",
+      "vehicle_id": "",
+      "preparing_time": 0,
+      "estimate_ready_time": 0,
+      "ready_time": 0,
+      "estimate_finish_time": 0,
+      "finish_time": 0,
+      "notify_list": [
+        {
+          "user_id": "FA-B1",
+          "user_name": "FA-B1"
+        },
+        {
+          "user_id": "FA-B2",
+          "user_name": "FA-B2"
+        }
+      ],
+      "user_id": "FA-01",
+      "created_time": 1641287832454,
+      "updated_time": 1641287832454
+    }
+  ],
+  "profile": {
+    "created_time": 1669169569382,
+    "updated_time": 1669169569382,
+    "user_id": "dummy",
+    "user_name": "dummy",
+    "user_organization": "dummy",
+    "authorization": {
+      "expired_time": 1669173169382,
+      "role": "normal"
+    }
+  },
+  "recall": {
+    "delivery_mission_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697",
+    "route_id": "FAB-R1",
+    "notify_list": [
+      {
+        "user_id": "FA-B1",
+        "user_name": "FA-B1"
+      },
+      {
+        "user_id": "FA-B2",
+        "user_name": "FA-B2"
+      }
+    ]
+  },
+  "dispatch": {
+    "delivery_mission_id": "P-03-0-FA-B4-D-01-0-20221121-1104555065697",
+  },
+  "routes": [
+    {
+      "created_time": 1668577973694,
+      "notification_users": [
+        {
+          "authentication": {
+            "hash_method": "",
+            "password": ""
+          },
+          "authorization": {
+            "expired_time": 0,
+            "role": ""
+          },
+          "created_time": 0,
+          "updated_time": 0,
+          "user_id": "FA-B2",
+          "user_name": "FA-B2",
+          "user_organization": ""
+        },
+        {
+          "authentication": {
+            "hash_method": "",
+            "password": ""
+          },
+          "authorization": {
+            "expired_time": 0,
+            "role": ""
+          },
+          "created_time": 0,
+          "updated_time": 0,
+          "user_id": "FA-B8",
+          "user_name": "FA-B8",
+          "user_organization": ""
+        }
+      ],
+      "route_id": "FAB-R1",
+      "route_name": "成品路線1",
+      "source_storage_id": "AAB1",
+      "source_storage_name": "QC1A B1 成品區",
+      "target_storage_id": "AA12",
+      "target_storage_name": "QC1A 1F 成品倉",
+      "updated_time": 1668577973694
+    }
+  ]
 }
